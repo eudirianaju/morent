@@ -388,6 +388,7 @@ h4 {
     margin-top: 3rem;
     background-color: var(--p0);
     padding: 20px 55px;
+    width: 59rem;
     margin-right: 11rem;
     border-radius: 10px;
     margin-bottom: 5rem;
@@ -518,7 +519,7 @@ select {
 .cartitle {
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 93%;
     margin-left: 5px;
 }
 
