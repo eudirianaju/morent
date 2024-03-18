@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- Timepicker -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.13.18/jquery.timepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.13.18/jquery.timepicker.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <div class="logo">
+            <a href="/testecar-main/HomeCar.html">
+                <img src="img/logo.jpg" alt="Logo"></a>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search something here">
+        </div>
+
+        <div class="icons">
+
+            <div class="icon-container2">
+                <img src="img/Image.png" alt="usu" width="35px">
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="banners">
+            <div class="banner">
+
+                <div class="banner1">
+                    <div class="text">
+                        <h1 id="h1b">The Best Platform </br> for Car Rental</h1>
+                        <p id="pb">Ease of doing a car rental safely and<br>
+                            reliably. Of course at a low price.</p>
+                        <button id="btn1">Rental Car</button>
+                    </div>
+                </div>
+
+
+                <div class="banner2">
+                    <div class="text">
+                        <h1 id="h1b">Easy way to rent a <br> car at a low price</h1>
+                        <p id="pb">Providing cheap car rental services<br>
+                            and safe and comfortable facilities.</p>
+                        <button id="btn2">Rental Car</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="others">
+            <div class="list">
+
+                <div class="locations">
+                    <h1 id="h1l">Locations</h1>
+                    <label for="city">Select your city:</label>
+                    <select id="city" name="city">
+                        <option value=""></option>
+                        <option value="new-york">New York</option>
+                        <option value="los-angeles">Los Angeles</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="miami">Miami</option>
+                    </select>
+                </div>
+
+                <div class="date">
+                    <h1 id="h1l">Date</h1>
+                    <label for="datepicker">Select your date:</label>
+                    <input type="text" id="datepicker">
+                </div>
+
+                <div class="time">
+                    <h1 id="h1l">Time</h1>
+                    <label for="timepicker">Select your time:</label>
+                    <input type="text" id="timepicker">
+                </div>
+
+
+                <button id="listbutton"><img src="img/button.jpg" alt=""></button>
+
+
+                <div class="locations">
+                    <h1 id="h1l">Locations</h1>
+                    <label for="city">Select your city:</label>
+                    <select id="city" name="city">
+                        <option value=""></option>
+                        <option value="new-york">New York</option>
+                        <option value="los-angeles">Los Angeles</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="miami">Miami</option>
+                    </select>
+                </div>
+
+                <div class="date">
+                    <h1 id="h1l">Date</h1>
+                    <label for="datepicker">Select your date:</label>
+                    <input type="text" id="datepicker">
+                </div>
+
+                <div class="time">
+                    <h1 id="h1l">Time</h1>
+                    <label for="timepicker">Select your time:</label>
+                    <input type="text" id="timepicker">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="catalog">
+            <div class="top">
+                <h1 id="popular">Popular Car</h1>
+                <h2 id="all"><a href="http://127.0.0.1:5500/testecar-main/CateroryCar.html">View All</a></h2>
+            </div>
+
+            <div class="cars">
+
+
+                <div class="card">
+                    <div class="name">
+                        <h1>Koenigsegg</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">Sport</p>
+
+                    <div class="imagem">
+                        <img src="img/car.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>90L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>2 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$99.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>NissanGT-R</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">Sport</p>
+
+                    <div class="imagem">
+                        <img src="img/car2.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>80L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>2 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$80.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>Rolls - Royce</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">Sedan</p>
+
+                    <div class="imagem">
+                        <img src="img/car3.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>70L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>4 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$96.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>NissanGT-R</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">Sport</p>
+
+                    <div class="imagem">
+                        <img src="img/car2.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>80L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>2 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$80.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>Koenigsegg</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">Sport</p>
+
+                    <div class="imagem">
+                        <img src="img/car.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>90L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>2 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$99.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+        <section id="catalog">
+            <div class="top">
+                <h1 id="popular">Recomendation Car</h1>
+            </div>
+
+            <div class="cars">
+
+
+                <div class="card">
+                    <div class="name">
+                        <h1>AllNewRush</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r1.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>70L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$72.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>CR - V</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r2.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>80L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$80.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>All New Terios</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r3.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>90L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$74.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>CR - V</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r4.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>80L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$80.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+                    <div class="name">
+                        <h1>MG ZX Excite</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">Hatchback</p>
+
+                    <div class="imagem">
+                        <img src="img/r5.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>90L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>4 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$74.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="cars">
+
+
+                <div class="card">
+                    <div class="name">
+                        <h1>New MG ZS</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r6.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>80L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$80.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>MG ZX Exclusice</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">Hatchback</p>
+
+                    <div class="imagem">
+                        <img src="img/r5.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>70L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>4 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$76.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>New MG ZS</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r8.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>80L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$80.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="name">
+                        <h1>CR - V</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r2.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>80L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$80.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+                    <div class="name">
+                        <h1>All New Terios</h1>
+                        <img class="heart" src="img/coracaovazio.jpg" alt="Heart">
+                    </div>
+
+                    <p id="category">SUV</p>
+
+                    <div class="imagem">
+                        <img src="img/r3.png" alt="">
+                    </div>
+
+                    <div class="three">
+                        <img src="img/Vector1.png" alt="">
+                        <p>90L</p>
+                        <img src="img/Circle 4.png" alt="">
+                        <p>Manual</p>
+                        <img src="img/people.png" alt="">
+                        <p>6 People</p>
+                    </div>
+
+                    <div class="buy">
+                        <h1>$74.00/</h1>
+                        <p>day</p>
+                            <button id="buyb"><a href="/testecar-main/DetailsCar.html">Rent Now</a></button>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="more">
+                <button id="more"><a href="http://127.0.0.1:5500/testecar-main/CateroryCar.html">Show more
+                        car</a></button>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="high">
+            <div class="left">
+                <img src="img/logo.jpg" alt="">
+                <p id="pfooter">
+                    Our vision is to provide convenience<br>
+                    and help increase your sales business.
+                </p>
+            </div>
+
+
+            <div class="right">
+
+                <div class="About">
+                    <h1 id="h1f">About</h1>
+                    <p id="pfooter">How it works</p>
+                    <p id="pfooter">Featured</p>
+                    <p id="pfooter">Partnership</p>
+                    <p id="pfooter">Bussiness Relation</p>
+
+
+
+                </div>
+
+                <div class="Community">
+                    <h1 id="h1f">Community</h1>
+                    <p id="pfooter">Events</p>
+                    <p id="pfooter">Blog</p>
+                    <p id="pfooter">Podcast</p>
+                    <p id="pfooter">Invite a friend</p>
+
+                </div>
+
+
+                <div class="Socials">
+                    <h1 id="h1f">Socials</h1>
+                    <p id="pfooter">Discord</p>
+                    <p id="pfooter">Instagram</p>
+                    <p id="pfooter">Twitter</p>
+                    <p id="pfooter">Facebook</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="low">
+            <h1 id="h1l">©2022 MORENT. All rights reserved</h1>
+
+            <div class="low2">
+                <h1 id="h1l">Privacy & Policy</h1>
+                <h1 id="h1l">Terms & Condition</h1>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
